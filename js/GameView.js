@@ -15,7 +15,7 @@ export default class GameView{
             if(winningCombinations && winningCombinations.includes(i)){
                 tile.classList.add("tile-winner");
                 var div = document.getElementById('winner');
-                div.innerHTML += 'Winner! ';
+                div.innerHTML += 'Winner!';
             }
        
         }
