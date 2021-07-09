@@ -14,10 +14,9 @@ export default class GameView{
             
             if(winningCombinations && winningCombinations.includes(i)){
                 tile.classList.add("tile-winner");
-                var div = document.getElementById('winner');
-                div.innerHTML += 'Winner!';
+                document.getElementById("winner").innerHTML = "Winner!"
             }
-       
+        
         }
     }
     updateTurn(game){
@@ -35,5 +34,4 @@ export default class GameView{
 }
 
 
-// const tile = document.querySelector(".board-tile [data-index='0']");
 

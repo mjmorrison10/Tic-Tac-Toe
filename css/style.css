@@ -48,6 +48,8 @@ h1 {
     font-weight: bold;
 }
 
+
+
 .game {
     display: flex;
     flex-direction: column;
@@ -126,14 +128,14 @@ h1 {
 }
 
 #winner {
-    font-size: 30px;
+    font-size: 3em;
     font-weight: bolder;
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(33, 10, 163);
+    color: #4c6986;
     margin-bottom: 5px;
-    text-shadow: 2px 2px orange;
+    
 }
 
 @media only screen and (max-width: 1200px) {

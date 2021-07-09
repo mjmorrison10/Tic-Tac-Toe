@@ -6,6 +6,8 @@ let gameView = new GameView();
 
 document.querySelector(".restart").addEventListener("click", () => {
     onRestartClick();
+    document.getElementById("winner").innerHTML = ""
+
 })
 
 let tiles = document.querySelectorAll(".board-tile")
